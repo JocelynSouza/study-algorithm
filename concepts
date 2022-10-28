@@ -1,0 +1,24 @@
+Algoritmo
+  * São conjuntos de passos finitos/instruções e organizados que resolvem um determinado problema. Algoritmo é um caminho para a solução de um problema;
+  * Um algoritmo deve ser bem detalhado, com uma linguagem compreensível e sem abiquidade = Português Estruturado (simplificação extrema do português);
+  * Algoritmo não computacional: é um algoritmo de sequência que não podem ser executados por um computador;
+  * Algoritmo computacional: um computador sozinho não executa nada, para isso precisamos criar um programa que execute uma determinada tarefa. Logo, um programa executa um algoritmo computacional descrito em linguagem de programação
+      - Linguagem de programação: contém comando (ordem cronológica) que fazem com que o computador faça algo em tela, como por exemplo, realizar cálculos, receber uma entrada de dados.
+      - Processamento de dados: função processar os dados. Daí pode-se extrair os dois componentes básicos de um algoritmo computacional: DADOS e CÓDIGO.
+  
+  EXE. ALGORITMO NÃO COMPUTACIONAL                
+  inicio
+    Tirar o fone do gacho
+    Ouvir sinal da linha 
+    Introdução o cartão 
+    Teclar o número desejado
+    Se der o sinal de chamar:
+      Conversar
+      Desligar 
+      Retirar o cartão
+    Senao
+      Repetir
+  fimalgoritmo
+  
+  
+  
