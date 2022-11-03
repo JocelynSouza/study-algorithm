@@ -1,0 +1,26 @@
+Comando de saída - sintaxe:
+  Escreva ( <expressão ou identificador ou constante> )
+  
+No Visualg existem dois comandos de escreva com finalidades diferentes quando usado consecutivamente.
+  Escreval // Mostra o primeiro resultado na mesma linha depois em linhas diferentes
+  Escreva // Mostra o resultado na mesma linha, mas em colunas diferentes
+
+---- Nem todos os dados que um algoritmo manipula são gerados por ele. Por exemplo, um caixa automático precisa do input de dados para o algoritmo. Assim, deve haver um meio para que sejam digitados por meio do usuário.
+
+Comando de entrada - sintaxe:
+  Leia ( <identificador> )
+
+var
+  NomeCliente, NumeroConta, NumeroAgencia: Caractere
+inicio
+  Escreva ("Qual o seu nome ?")
+  Leia (NomeCliente)
+  Escreva ("Informe o número da conta ")
+  Leia (NumeroConta)
+  Escreva ("Agora, por favor, informe o número da Agência ")
+  Leia (NumeroAgencia)
+  
+Obs. Sempre à DIREITA do comando LEIA haverá um identificador de variável.
+Obs. comando de entrada vai interagir com o usuário.
+
+
