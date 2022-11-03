@@ -25,4 +25,4 @@ inicio
   Escreva (msg) // aparece o conteúdo da variável, ou seja, Olá mundo
   Escreva ("mensagem", msg) // aparece a mensagem e o conteúdo da variável
   
-  Obs. aceita-se apenas um valor para uma varíavel.
+  Obs. aceita-se apenas um valor para uma varíavel. Os identificadores devem ser claros e precisos, dando uma ideia do "papel" variável no algoritmo.
