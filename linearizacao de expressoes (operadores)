@@ -1,0 +1,32 @@
+Para que o algoritmo execute cálculos matemáticos, todas as expressões aritméticas devem ser linearizadas, ou seja, colocadas em linha. Deve ser feito o mapeamento dos operadores da aritmética tradicional pra os do Portugues Estruturado.
+
+Computacional: ((2/3 - (5-3)) + 1) * 5
+
+OPERADORES ARITMÉTICOS              PORTUGUES ESTRUTURADO                       
+    Adição                                    +                       //       5+2=7
+    Subtração                                 -                       //       5-2=3
+    Multiplicação                             *                       //       5*2=10
+    Divisão                                   /                       //       5/2= 2.5
+    Divisão inteira                           \                       //       5\2= 2 pega a parte inteira da divisão, ou seja, 2
+    Exponenciação                   ^ ou EXP ( <base>, <expoente>)    //       5² = 25
+    Módulo (resto da divisão)                 %                       //       5 % 2 = 1 
+    
+Ordem de precedência
+  ( ) parentese
+   ^  exponenciação
+  * / multiplicação e divisão
+  + - adição e subtração
+  
+var
+  N1,N2: Inteiros
+  M: Real
+inicio
+  Escreva ("Informe o primeiro número ")
+  Leia (N1)
+  Escreva ("Informe o segundo número ")
+  Leia (N2)
+  M <- (N1+N2) / 2
+  Escreva ("A média é, ")
+  
+Obs. Caso não coloque o N1 e N2 em parêntese, pela ordem de precedência a multiplicação será feita primeiro, ou seja, o resultado estará incorreto. Colocando o parentese, pela ordem de precedencia os números serão somados e depois dividos por 2, retornando a média correta.
+    
