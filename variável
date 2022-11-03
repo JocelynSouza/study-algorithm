@@ -1,0 +1,28 @@
+Variáveis
+  Identificador: tipo
+
+Regras identificador
+  1 - Deve se iniciar com letras
+  2 - Os próximos podem ser letras e números
+  3 - Não pode utilizar nenhum símbolo, exceto " _ "
+  4 - Não pode conter espaços em branco
+  5 - Não pode conter palavras com acento
+  6 - Não pode ser uma palavra reservada
+  
+Tipos primitivos
+  1 - Real (0.5, 9.8)
+  2 - Inteiro (1,2,3,-5)
+  3 - Caractere (Nomes)
+  4 - Lógico (V/F)
+  
+  
+Exemplo de atribuição
+var
+  msg: caractere
+inicio
+  msg <- "Olá, Mundo!"
+  Escreva ("msg") // aparece a palavra MSG na tela
+  Escreva (msg) // aparece o conteúdo da variável, ou seja, Olá mundo
+  Escreva ("mensagem", msg) // aparece a mensagem e o conteúdo da variável
+  
+  Obs. aceita-se apenas um valor para uma varíavel.
