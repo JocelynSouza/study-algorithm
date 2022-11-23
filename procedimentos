@@ -1,0 +1,20 @@
+Procedimentos
+    Rotinas e funções             --> colocar na parte de variáveis
+    
+Rotina preparo () -> todo o procedimento de como utilizar o moedor de carne está dentro dessa rotina
+    Procedimento RotinaPreparo ()
+    Inicio
+      Verifique a escotilha
+      Botão azul posição 1
+      Olhe pelo visor
+      Gire a manivela
+      Botão azul posição 2
+      Gire a manivela
+      Aperte o botão vermelho
+    FimProcedimento
+    
+    Inicio
+      RotinaPreparo ()
+      Coloque a carne
+      RotinaPreparo ()
+    FimAlgoritmo
