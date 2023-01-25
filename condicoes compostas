@@ -1,0 +1,21 @@
+---------- Editor Visualg ---------------
+
+Algoritmo "Ex27"
+Var
+  n1,n2,M: Real
+Inicio
+      Escreva("Informe a primeira nota: ")
+      Leia(n1)
+      Escreva("Informe a segunda nota: ")
+      Leia(n2)
+      M <- (n1+n2)/2
+      Se(M<=4.9) entao
+         Escreval("Reprovado")
+      senao
+           Se(M<=6.9) e (M<=7) entao
+              Escreval("Recuperação")
+           senao
+              Escreval ("Aprovado")
+           FimSe
+      FimSe
+Fimalgoritmo
