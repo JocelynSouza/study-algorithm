@@ -19,3 +19,26 @@ Inicio
            FimSe
       FimSe
 Fimalgoritmo
+
+--------------------------//---------------------------------
+Algoritmo "Ex28"
+Var
+  larg,compri,area: Inteiro
+
+Inicio
+      Escreva("Qual é a largura do terreno? ")
+      Leia (larg)
+      Escreva("Qual é o comprimento do terreno? ")
+      Leia (compri)
+      area <- (larg*compri)
+      Escreval("A área do terreno é de ",area,"m²")
+      Se (area<=99) entao
+         Escreva("TERRENO POPULAR")
+      senao
+         Se(area<=100) e (area<=500) entao
+            Escreval("TERRENO MASTER")
+         senao
+            Escreval("TERRENO VIP")
+         FimSe
+      FimSe
+Fimalgoritmo
